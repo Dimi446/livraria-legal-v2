@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97 97" width="40" height="40">
+	<title>livro-svg</title>
+	<defs>
+		<image width="100" height="100" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSJub25lIj4NCiAgPHBhdGggZmlsbD0iIzAwMDAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTkgNGExIDEgMCAwMS0xIDFIMmExIDEgMCAwMTAtMmgxNmExIDEgMCAwMTEgMXptMCA2YTEgMSAwIDAxLTEgMUgyYTEgMSAwIDExMC0yaDE2YTEgMSAwIDAxMSAxem0tMSA3YTEgMSAwIDEwMC0ySDJhMSAxIDAgMTAwIDJoMTZ6Ii8+DQo8L3N2Zz4="/>
+	</defs>
+	<style>
+	</style>
+	<g>
+		<use id="menu-svgrepo-com" href="#img1" transform="matrix(.97,0,0,.97,0,0)"/>
+	</g>
+</svg>

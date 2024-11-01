@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Livraria Legal</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Tilt+Warp&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Comédia</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Romance</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Drama</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Fantasia</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Literatura</a>
+        </li>
+      </ul>
+      <img src="img/livro.svg" alt="Logo da Livraria Bacana" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/lojinha.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/doisherois.svg"
+            alt="Livro sobre Dois mundos, um herói: Uma aventura não oficial de Minecraft da Livraria Legal"></div>
+        <div class="swiper-slide"><img src="img/manuadomundo.svg"
+            alt="Livro sobre O grande livro de história do Manual do Mundo: Anotações incríveis e divertidas para você aprender sobre as pessoas e os eventos que mudaram o mundo da Livraria Legal"></div>
+        <div class="swiper-slide"><img src="img/authentic.svg" alt="Livro sobre Authenticgames: vivendo uma vida autêntica da Livraria Legal">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/vocesabia.svg" alt="Livro Você sabia?: + de 400 coisas que você deveria saber" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/naofazsentido.svg" alt="Livro sobre Não faz sentido: Por trás da câmera" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/guialol.svg" alt="Livro sobre Guia definitivo de League of Legends" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+          <h2 class="descrição__titulo-livro">HQ Rips</h2>
+          <p class="descrição__texto">
+            Saiba e aprenda mais sobre rips de alta qualidade de diversos canais.
+          </p>
+        </div>
+        <img src="img/siiva-2.svg" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/favoritos.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/lojinha.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/doisherois.svg"
+          alt="Livro sobre Dois mundos, um herói: Uma aventura não oficial de Minecraft da Livraria Legal"></div>
+      <div class="swiper-slide"><img src="img/manuadomundo.svg"
+          alt="Livro sobre O grande livro de história do Manual do Mundo: Anotações incríveis e divertidas para você aprender sobre as pessoas e os eventos que mudaram o mundo da Livraria Legal"></div>
+      <div class="swiper-slide"><img src="img/authentic.svg" alt="Livro sobre Authenticgames: vivendo uma vida autêntica da Livraria Legal">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/vocesabia.svg" alt="Livro Você sabia?: + de 400 coisas que você deveria saber" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/naofazsentido.svg" alt="Livro sobre Não faz sentido: Por trás da câmera" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/guialol.svg" alt="Livro sobre Guia definitivo de League of Legends"
+        <a> href="https://www.youtube.com/watch?v=ctCYL25fhcQ" </a> />
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">Autor do Mês</h3>
+          <h2 class="descrição__titulo-livro">Jeff Kinney</h2>
+          <p class="descrição__texto">Jeffrey Patrick Kinney é um escritor e cartunista norte-americano cujo trabalho ficou notável após escrever a série de livros chamada Diário de Um Banana.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/Escritor.svg" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/favoritos.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/lojinha.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo">Mais vendidos</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/doisherois.svg"
+          alt="Livro sobre Dois mundos, um herói: Uma aventura não oficial de Minecraft da Livraria Legal"></div>
+      <div class="swiper-slide"><img src="img/manuadomundo.svg"
+          alt="Livro sobre O grande livro de história do Manual do Mundo: Anotações incríveis e divertidas para você aprender sobre as pessoas e os eventos que mudaram o mundo da Livraria Legal"></div>
+      <div class="swiper-slide"><img src="img/authentic.svg" alt="Livro sobre Authenticgames: vivendo uma vida autêntica da Livraria Legal">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/vocesabia.svg" alt="Livro Você sabia?: + de 400 coisas que você deveria saber" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/naofazsentido.svg" alt="Livro sobre Não faz sentido: Por trás da câmera" />
+      </div>
+      <div class="swiper-slide">
+        <img src="img/guialol.svg" alt="Livro sobre Guia definitivo de League of Legends" />
+      </div>
+    
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Romance</a></li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Comédia</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Fantasia</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Poesia</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Autobiografia</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Crônica</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Literatura</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="#" class="tópicos__link">Drama</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <div class="contato__descrição">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">
+        Atualizações de e-books, novos livros, promoções e outros.
+      </p>
+    </div>
+    <input type="email" placeholder="        Cadastre seu e-mail" class="contato__email">
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Alura</h2>
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Educação</li>
+      <li class="lista-rodapé__item">
+        <img src="img/Caelum.svg" alt="Logo da Caelum" />
+        <a href="#" class="lista-rodapé__link">Caelum</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CasaDoCodigo.svg" alt="Logo da Casa do Código" />
+        <a href="#" class="lista-rodapé__link">Casa do Código</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Educação online</li>
+      <li class="lista-rodapé__item">
+        <img src="img/Alura.svg" alt="Logo da Alura" />
+        <a href="#" class="lista-rodapé__link">Alura</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/AluraEmpresas.svg" alt="Logo da AluraParaEmpresas" />
+        <a href="#" class="lista-rodapé__link">Alura para Empresas</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/AluraLATAM.svg" alt="Logo da Alura Latam" />
+        <a href="#" class="lista-rodapé__link">Alura LATAM</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/AluraStart.svg" alt="Logo da Alura START" />
+        <a href="#" class="lista-rodapé__link">Alura Start</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/MusicDot.svg" alt="Logo da Music Dot" />
+        <a href="#" class="lista-rodapé__link">Music Dot</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/AluraLingua.svg" alt="Logo da Alura Lingua" />
+        <a href="#" class="lista-rodapé__link">Alura Língua</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/PM3.svg" alt="Logo da PM3" />
+        <a href="#" class="lista-rodapé__link">PM3</a>
+      </li>
+    </ul>
+
+    <ul class="lista-rodapé">
+      <li class="lista-rodapé__titulo">Comunidade</li>
+      <li class="lista-rodapé__item">
+        <img src="img/HipstersTech.svg" alt="Logo do Hipsters ponto Tech" />
+        <a href="#" class="lista-rodapé__link">Hipsters ponto Tech</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/ScubaDev.svg" alt="Logo do Scuba Dev" />
+        <a href="#" class="lista-rodapé__link">Scuba Dev</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/LayersTech.svg" alt="Logo do Layers ponto Tech" />
+        <a href="#" class="lista-rodapé__link">Layers ponto Tech</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/LikeABoss.svg" alt="Logo do Like a Boss" />
+        <a href="#" class="lista-rodapé__link">Like a Boss</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/CarreiraSemFronteira.svg" alt="Logo do Carreira sem fronteiras" />
+        <a href="#" class="lista-rodapé__link">Carreira sem fronteiras</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/HipstersJobs.svg" alt="Logo do Hipsters ponto jobs" />
+        <a href="#" class="lista-rodapé__link">Hipsters ponto jobs</a>
+      </li>
+      <li class="lista-rodapé__item">
+        <img src="img/GUJ.svg" alt="Logo do GUJ" />
+        <a href="#" class="lista-rodapé__link">GUJ</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>
